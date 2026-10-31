@@ -1,0 +1,46 @@
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.subcontainer {
+    width: 90%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: lrem;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.img {
+    width: 100px;
+    min-height: 27px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img:nth-child(1) {
+    background-image: url(Follow link (ctrl + click));
+
+}
+
+.img:nth-child(2) {
+    background-image: url(Follow link (ctrl + click));
+}
+
+.img:nth-child(3) {
+    background-image: url(Follow link (ctrl + click));
+    grid-column: 2/4;
+}
+
+
+
+
+
+@media(max-width:1600px) {
+    .container {
+        width: 100%;
